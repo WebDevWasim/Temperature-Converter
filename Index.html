@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>temperature converter</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<link rel="stylesheet" href="Style.css">
+</head>
+<body>
+	<div class="container">
+		<h3 class="text-center display-4 mb-4">Temperature Converter</h3>
+		<div class="row">
+			<div class="col-md-6 col-xs-6 col-lg-6 col-xl-6 offset-md-3 offset-xs-3 offset-lg-3 offset-xl-3">
+				
+				<div class="card card-success pl-2 pr-2 pb-1 mb-2">
+					<label for="C"><b>Celsius:</b></label>
+					<input onChange="CelsiusConverter()" onInput="CelsiusConverter()"  type="number" class="form-control" id="C" placeholder="Enter Celsius (°C)">
+				</div>
+
+				<div class="card card-primary pl-2 pr-2 pb-1 mb-2">
+					<label for="F"><b>Fahrenheit:</b></label>
+					<input onChange="FahrenheitConverter()" onInput="FahrenheitConverter()" type="number" class="form-control" id="F" placeholder="Enter Fahrenheit (F)">
+				</div>
+
+				<div class="card card-danger pl-2 pr-2 pb-1 ">
+					<label for="K"><b>Kelvin:</b></label>
+					<input onChange="KelvinConverter()" onInput="KelvinConverter()" type="number" class="form-control" id="K" placeholder="Enter Kelvin (K)">
+				</div>
+				
+			
+
+
+
+
+
+
+
+			</div>
+		</div>
+		<p class="text-center mt-3">&copy Wasim Khan 2017</p>
+	</div>
+	<script src="External.js"></script>
+</body>
+</html>
+
+
